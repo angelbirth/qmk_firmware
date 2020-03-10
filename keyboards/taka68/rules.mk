@@ -11,7 +11,7 @@ DFU_SUFFIX_ARGS = -v 1eaf -p 0003
 
 # project specific files
 VPATH += keyboards/taka68/bluepill
-SRC =	keyboard.c
+#SRC =	keyboard.c
 
 #BOOTMAGIC_ENABLE = yes	# Virtual DIP switch configuration
 MOUSEKEY_ENABLE = yes	# Mouse keys

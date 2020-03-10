@@ -31,6 +31,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define MATRIX_COL_PINS { B11, B1, A4, A3, A2, A1, A0, B8, B0, A7, B13, B7, B6, B5, B15, B14 }
 #define MATRIX_ROW_PINS { B12, B10, C13, B4, A15 }
+#define UNUSED_PINS { A6, A5 }
 #define DIODE_DIRECTION COL2ROW
 
 #define BACKLIGHT_LEVELS 6
