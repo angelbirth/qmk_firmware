@@ -41,8 +41,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
  */
-#define MATRIX_ROW_PINS { C13, C14, C15, A0, A1, A2 }
-#define MATRIX_COL_PINS { B9, B8, B7, B6, B5, B4, B3, A15, A10, A9, A8, B15, B14, B13, B12, B11, B10, B1, A7 }
+#define MATRIX_ROW_PINS { B12, B13, B14, B15, A8, A9 }
+#define MATRIX_COL_PINS { B8, B9, C13, A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B10, B11, B7, B6, B5, B4 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL*/
