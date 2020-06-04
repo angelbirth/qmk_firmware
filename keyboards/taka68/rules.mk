@@ -10,10 +10,10 @@ DFU_ARGS = -d 1eaf:0003 -a2 -R
 DFU_SUFFIX_ARGS = -v 1eaf -p 0003
 
 # project specific files
-VPATH += keyboards/taka68/bluepill
+#VPATH += keyboards/taka68/bluepill
 #SRC =	keyboard.c
 
-#BOOTMAGIC_ENABLE = yes	# Virtual DIP switch configuration
+BOOTMAGIC_ENABLE = yes	# Virtual DIP switch configuration
 MOUSEKEY_ENABLE = yes	# Mouse keys
 EXTRAKEY_ENABLE = yes	# Audio control and System control
 CONSOLE_ENABLE = yes	# Console for debug
@@ -23,7 +23,6 @@ NKRO_ENABLE = yes	    # USB Nkey Rollover
 BACKLIGHT_ENABLE = no
 BACKLIGHT_DRIVER = custom
 RGBLIGHT_ENABLE = no
-
 
 # Enter lower-power sleep mode when on the ChibiOS idle thread
 OPT_DEFS += -DCORTEX_ENABLE_WFI_IDLE=TRUE

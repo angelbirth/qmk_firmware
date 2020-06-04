@@ -1,0 +1,2 @@
+VIA_ENABLE=yes
+DEBUG_ENABLE = yes
